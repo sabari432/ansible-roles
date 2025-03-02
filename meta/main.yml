@@ -1,23 +1,24 @@
 galaxy_info:
   author: Sabareeswaran
-  description: Ansible role for [describe purpose here]
-  company: sabaree@comaony  # Optional
+  description: Ansible role for automating [specific purpose, e.g., web server setup]
+  company: sabaree@company.com  # Optional, update if needed
 
-  # Issue tracker URL (if not on GitHub, uncomment and update)
+  # Issue tracker URL (uncomment and update if applicable)
   # issue_tracker_url: http://example.com/issue/tracker
 
   # Choose a valid license from https://spdx.org/licenses/
   license: MIT  # Change as needed (e.g., GPL-2.0-or-later, Apache-2.0)
 
-  min_ansible_version: 2.9  # Set based on your role requirements
+  min_ansible_version: 2.9  # Ensure this is correct based on role requirements
 
-  # Ansible Galaxy tags (remove '[]' if adding tags)
+  # Ansible Galaxy tags (use relevant tags for better discoverability)
   galaxy_tags:
     - ansible
     - automation
-    - [other tags related to the role]
+    - deployment
+    - configuration-management  # Add more relevant tags
 
-dependencies:
+dependencies: []
   # List role dependencies if any
   # Example:
   # - role: common
